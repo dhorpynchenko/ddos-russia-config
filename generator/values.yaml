@@ -1,0 +1,17 @@
+http:
+  - https://dor-clinicrostov.ru
+  - http://rostov-ob2.ru
+  - http://uzgoikb.by
+  - http://www.belokb.belzdrav.ru/
+tcp:
+  - ip: 81.177.174.12 # https://dor-clinicrostov.ru/
+    ports: [80, 443]
+  - ip: 92.53.96.129 # http://rostov-ob2.ru/
+    ports: [80, 443]
+  - ip: 31.130.206.55 # http://uzgoikb.by/
+    ports: [80]
+  - ip: 82.151.111.39 # www.belokb.belzdrav.ru
+    ports: [80]
+#udp:
+#  - ip: 185.141.25.244
+#    ports: [21, 25, 53, 110]
