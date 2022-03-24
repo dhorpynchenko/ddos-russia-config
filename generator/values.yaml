@@ -3,6 +3,13 @@ http:
   - http://rostov-ob2.ru
   - http://uzgoikb.by
   - http://www.belokb.belzdrav.ru/
+  - https://parking.mos.ru/
+  - http://parking.spb.ru/
+  - https://parkingkrd.ru/
+  - http://www.ved.gov.ru/
+  - https://www.mid.ru/ 
+  - https://www.economy.gov.ru/
+  - https://minobrnauki.gov.ru/
 tcp:
   - ip: 81.177.174.12 # https://dor-clinicrostov.ru/
     ports: [80, 443]
@@ -12,6 +19,24 @@ tcp:
     ports: [80]
   - ip: 82.151.111.39 # www.belokb.belzdrav.ru
     ports: [80]
+  - ip: 178.248.238.59 # https://parking.mos.ru/
+    ports: [80, 443]
+  - ip: 87.251.90.231 # https://parking.mos.ru/
+    ports: [80, 443]
+  - ip: 178.248.235.239 # https://parking.mos.ru/
+    ports: [80, 443]
+  - ip: 5.142.253.152 # http://parking.spb.ru/
+    ports: [80]
+  - ip: 31.31.196.202 # https://parkingkrd.ru/
+    ports: [80]
+  - ip: 91.206.121.124 # http://www.ved.gov.ru/
+    ports: [80, 443]
+  - ip: 194.85.30.210 # https://www.mid.ru/ 
+    ports: [80, 443]
+  - ip: 212.164.137.137 # https://www.economy.gov.ru/
+    ports: [80, 443]
+  - ip: 217.107.75.18 # https://minobrnauki.gov.ru/
+    ports: [80, 443]
 #udp:
 #  - ip: 185.141.25.244
 #    ports: [21, 25, 53, 110]
